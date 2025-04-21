@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+
+
+header {
+    margin: 44px 0px 144px 76px;
+        
+}
+
+.link-menu {
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+#bt_login {
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 29px;
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    cursor: pointer;
+}
+
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+}
+
+.img_main {
+    width: 100vw;
+    margin-left: 125PX;
+    display: inline-block;
+}
+
+
+h1 {
+    font-weight: 900px;
+    font-size: 100px;
+    color: #515151;
+    line-height: 122px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 62px;
+}
+
+.bt_explore {
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    background: #ADFF00;
+    filter: drop-shadow(5px 5px 8px #515151);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+}
+
+@media  screen and (max-width: 880px) {
+    header {
+        display: none;
+        margin: 0;
+    }
+
+    p {
+        display: none;
+    }
+
+    .main {
+        display: block;
+        margin: 0px 0px;
+    }
+
+    .img_main {
+        position: static;
+        margin: 35px 20px;
+        max-width: 90%;
+
+    }
+
+    .main_corpo {
+        margin: 0;
+    }
+
+    .main_corpo h1 {
+        position: static;
+        text-align: center;
+        font-size: 70px;
+        line-height: 65px;
+        width: auto;
+        margin: 25px 10px;
+    }
+
+    .main_corpo h2 {
+        position: static;
+        font-size: 50px;
+        line-height: 25px;
+        margin: 35px;
+    }
+
+    .bt_explore {
+        display: block;
+        margin: 0px auto;        
+    }
+}
